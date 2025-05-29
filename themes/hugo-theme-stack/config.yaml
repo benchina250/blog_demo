@@ -95,7 +95,7 @@ params:
             lang:
 
         giscus:
-            repo: https://giscus.app/client.js
+            repo: benchina250/blog_demo
             repoID: R_kgDOOybj4w
             category: Announcements
             categoryID: DIC_kwDOOybj484CquJW
