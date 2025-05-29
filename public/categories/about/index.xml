@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>About on My New Hugo Site</title>
+        <link>//localhost:1313/categories/about/</link>
+        <description>Recent content in About on My New Hugo Site</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Wed, 21 May 2025 14:47:27 +0800</lastBuildDate><atom:link href="//localhost:1313/categories/about/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>About stack</title>
+        <link>//localhost:1313/posts/about/</link>
+        <pubDate>Wed, 21 May 2025 14:47:27 +0800</pubDate>
+        
+        <guid>//localhost:1313/posts/about/</guid>
+        <description>&lt;h1 id=&#34;welcome&#34;&gt;Welcome
+&lt;/h1&gt;&lt;p&gt;Stack is a simple card-style Hugo theme designed for Bloggers. Here are some of the features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Responsive design&lt;/li&gt;
+&lt;li&gt;Simple and clean layout&lt;/li&gt;
+&lt;li&gt;Support for Markdown and HTML&lt;/li&gt;
+&lt;li&gt;Support for code highlighting&lt;/li&gt;
+&lt;li&gt;Support for math equations&lt;/li&gt;
+&lt;li&gt;Support for tables&lt;/li&gt;
+&lt;li&gt;Support for footnotes&lt;/li&gt;
+&lt;li&gt;Support for image galleries&lt;/li&gt;
+&lt;li&gt;Support for social media links&lt;/li&gt;
+&lt;li&gt;Support for custom menus&lt;/li&gt;
+&lt;li&gt;Support for custom widgets&lt;/li&gt;
+&lt;li&gt;Support for custom CSS&lt;/li&gt;
+&lt;li&gt;Support for custom JavaScript&lt;/li&gt;
+&lt;li&gt;Support for custom analytics&lt;/li&gt;
+&lt;li&gt;Support for custom tracking&lt;/li&gt;
+&lt;li&gt;Support for custom advertising&lt;/li&gt;
+&lt;li&gt;Support for custom sharing&lt;/li&gt;
+&lt;li&gt;Support for custom comments&lt;/li&gt;
+&lt;li&gt;Support for custom search&lt;/li&gt;
+&lt;li&gt;Support for custom pagination&lt;/li&gt;
+&lt;li&gt;Support for custom breadcrumbs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;copyright&#34;&gt;Copyright
+&lt;/h1&gt;&lt;p&gt;This theme is based on the &lt;a class=&#34;link&#34; href=&#34;https://github.com/zhaohuabing/hugo-theme-cleanwhite&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo Clean&lt;/a&gt; theme by &lt;a class=&#34;link&#34; href=&#34;https://github.com/zhaohuabing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Huabing Zhao&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id=&#34;sponsoring&#34;&gt;Sponsoring
+&lt;/h1&gt;&lt;p&gt;If you like this theme, you can sponsor me to keep it going. Thank you!&lt;/p&gt;
+&lt;h2 id=&#34;赞助&#34;&gt;赞助
+&lt;/h2&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;h1 id=&#34;thanks-to&#34;&gt;Thanks to
+&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/zhaohuabing/hugo-theme-cleanwhite&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo Clean&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/liuzc/leaveit&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo Cleanwhite&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

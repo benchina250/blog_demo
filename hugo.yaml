@@ -1,0 +1,54 @@
+baseURL: ""
+languageCode: en-us
+title: My blog
+theme: hugo-theme-stack
+markup:
+  asciidocExt:
+    attributes: {}
+    backend: html5
+    extensions: []
+    failureLevel: fatal
+    noHeaderOrFooter: true
+    preserveTOC: false
+    safeMode: unsafe
+    sectionNumbers: false
+    trace: false
+    verbose: false
+    workingFolderCurrent: false
+menu:
+  social:
+    - identifier: github
+      name: GitHub
+      url: https://github.com/CaiJimmy/hugo-theme-stack
+      params:
+        icon: brand-github
+    - identifier: youtube
+      name: youtube
+      url: https://www.youtube.com
+      params:
+        icon: youtube
+    - identifier: bilibili
+      name: bilibili
+      url: https://space.bilibili.com/675640534
+      params:
+        icon: bilibili
+    - identifier: telegram
+      name: Telegram
+      url: https://t.me/stacker
+      params:
+        icon: telegrams
+
+related:
+  includeNewer: true
+  threshold: 60
+  toLower: false
+  indices:
+      - name: tags
+        weight: 100
+        
+      - name: categories
+        weight: 200
+params:
+  ShowPostNavigation: true
+  ShowIcon: true
+  ShowSearch: true

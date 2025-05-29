@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on My New Hugo Site</title>
+        <link>//localhost:1313/posts/</link>
+        <description>Recent content in Posts on My New Hugo Site</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Fri, 23 May 2025 14:37:40 +0800</lastBuildDate><atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Second</title>
+        <link>//localhost:1313/posts/second/</link>
+        <pubDate>Fri, 23 May 2025 14:37:40 +0800</pubDate>
+        
+        <guid>//localhost:1313/posts/second/</guid>
+        <description>&lt;h1 id=&#34;second-post&#34;&gt;second post
+&lt;/h1&gt;&lt;h2 id=&#34;second-post-1&#34;&gt;second post
+&lt;/h2&gt;&lt;h3 id=&#34;second-post-2&#34;&gt;second post
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;second post&lt;/p&gt;&lt;/blockquote&gt;
+</description>
+        </item>
+        <item>
+        <title>getting started</title>
+        <link>//localhost:1313/posts/first/</link>
+        <pubDate>Wed, 21 May 2025 15:18:56 +0800</pubDate>
+        
+        <guid>//localhost:1313/posts/first/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;TIP
+Try this quickstart template to get started with Stack and Hugo in a few minutes: &lt;a class=&#34;link&#34; href=&#34;https://github.com/CaiJimmy/hugo-theme-stack-starter&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/CaiJimmy/hugo-theme-stack-starter&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h1 id=&#34;requirements&#34;&gt;Requirements
+&lt;/h1&gt;&lt;p&gt;Before you start, make sure you have installed Hugo extended version. For more information, see Hugo&amp;rsquo;s documentation.&lt;/p&gt;
+&lt;p&gt;This theme uses SCSS and TypeScript, that&amp;rsquo;s why Hugo extended version is required. If you are using a non-extended Hugo installation, you will get the following error:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-powerShell&#34; data-lang=&#34;powerShell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Error&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;:&lt;/span&gt; Error building site&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;:&lt;/span&gt; TOCSS&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;:&lt;/span&gt; failed to transform &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;scss/style.scss&amp;#34;&lt;/span&gt; (text/x-scss)&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;:&lt;/span&gt; this feature is not available &lt;span style=&#34;color:#66d9ef&#34;&gt;in&lt;/span&gt; your current Hugo version
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Once you have installed Hugo, you can check the version by running the following command:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-powerShell&#34; data-lang=&#34;powerShell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo version
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;while you are in the root directory of the theme.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-powerShell&#34; data-lang=&#34;powerShell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo v0.102.&lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;-b76146b129d7caa52417f8e914fc5b9271bf56fc+extended windows/amd64 BuildDate=&lt;span style=&#34;color:#ae81ff&#34;&gt;2022&lt;/span&gt;-&lt;span style=&#34;color:#ae81ff&#34;&gt;09&lt;/span&gt;-01T10&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;16&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;:&lt;/span&gt;19Z VendorInfo=gohugoio
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        </item>
+        <item>
+        <title>About stack</title>
+        <link>//localhost:1313/posts/about/</link>
+        <pubDate>Wed, 21 May 2025 14:47:27 +0800</pubDate>
+        
+        <guid>//localhost:1313/posts/about/</guid>
+        <description>&lt;h1 id=&#34;welcome&#34;&gt;Welcome
+&lt;/h1&gt;&lt;p&gt;Stack is a simple card-style Hugo theme designed for Bloggers. Here are some of the features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Responsive design&lt;/li&gt;
+&lt;li&gt;Simple and clean layout&lt;/li&gt;
+&lt;li&gt;Support for Markdown and HTML&lt;/li&gt;
+&lt;li&gt;Support for code highlighting&lt;/li&gt;
+&lt;li&gt;Support for math equations&lt;/li&gt;
+&lt;li&gt;Support for tables&lt;/li&gt;
+&lt;li&gt;Support for footnotes&lt;/li&gt;
+&lt;li&gt;Support for image galleries&lt;/li&gt;
+&lt;li&gt;Support for social media links&lt;/li&gt;
+&lt;li&gt;Support for custom menus&lt;/li&gt;
+&lt;li&gt;Support for custom widgets&lt;/li&gt;
+&lt;li&gt;Support for custom CSS&lt;/li&gt;
+&lt;li&gt;Support for custom JavaScript&lt;/li&gt;
+&lt;li&gt;Support for custom analytics&lt;/li&gt;
+&lt;li&gt;Support for custom tracking&lt;/li&gt;
+&lt;li&gt;Support for custom advertising&lt;/li&gt;
+&lt;li&gt;Support for custom sharing&lt;/li&gt;
+&lt;li&gt;Support for custom comments&lt;/li&gt;
+&lt;li&gt;Support for custom search&lt;/li&gt;
+&lt;li&gt;Support for custom pagination&lt;/li&gt;
+&lt;li&gt;Support for custom breadcrumbs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;copyright&#34;&gt;Copyright
+&lt;/h1&gt;&lt;p&gt;This theme is based on the &lt;a class=&#34;link&#34; href=&#34;https://github.com/zhaohuabing/hugo-theme-cleanwhite&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo Clean&lt;/a&gt; theme by &lt;a class=&#34;link&#34; href=&#34;https://github.com/zhaohuabing&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Huabing Zhao&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id=&#34;sponsoring&#34;&gt;Sponsoring
+&lt;/h1&gt;&lt;p&gt;If you like this theme, you can sponsor me to keep it going. Thank you!&lt;/p&gt;
+&lt;h2 id=&#34;赞助&#34;&gt;赞助
+&lt;/h2&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;h1 id=&#34;thanks-to&#34;&gt;Thanks to
+&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/zhaohuabing/hugo-theme-cleanwhite&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo Clean&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/liuzc/leaveit&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo Cleanwhite&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
