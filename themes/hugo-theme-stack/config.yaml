@@ -6,14 +6,14 @@ module:
 params:
     mainSections:
         - post 
-        # - page
-        # - categories
+        - page
+        - categories
     featuredImageField: image
     rssFullContent: true
     favicon: /favicon.png
 
     footer:
-        since: 2022
+        since: 2025
         customText:    <a href="https://github.com/yourname/yourname.github.io">example.com.github.io</a>
 
     dateFormat:
@@ -122,6 +122,9 @@ params:
     widgets:
         homepage: []
         page: []
+        categories: []
+        archives: []
+        
 
     opengraph:
         twitter:
