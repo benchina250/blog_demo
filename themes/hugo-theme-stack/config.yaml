@@ -39,8 +39,8 @@ params:
             default: Licensed under CC BY-NC-SA 4.0
 
     comments:
-        enabled: false
-        provider: disqus
+        enabled: true
+        provider: giscus
 
         disqusjs:
             shortname:  coolboys-1
@@ -95,18 +95,18 @@ params:
             lang:
 
         giscus:
-            repo:
-            repoID:
-            category:
-            categoryID:
-            mapping:
-            strict:
-            lightTheme:
-            darkTheme:
+            repo: https://giscus.app/client.js
+            repoID: R_kgDOOybj4w
+            category: Announcements
+            categoryID: DIC_kwDOOybj484CquJW
+            mapping: pathname
+            strict: 0
+            lightTheme: 1
+            darkTheme: 0
             reactionsEnabled: 1
             emitMetadata: 0
-            inputPosition:
-            lang:
+            inputPosition: bottom
+            lang: zh-CN
 
         gitalk:
             owner:
