@@ -38,7 +38,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3             # 一个自动发布github pages的action
         with:
           external_repository: 	# 发布到哪个repo, 不填写则默认发布到当前仓库
-          # personal_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}	  
+          personal_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}	  
           publish_dir: ./public
           publish_branch: gh-pages
           force_orphan: true
