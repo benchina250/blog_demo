@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr">
-    <head><meta charset='utf-8'>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="Math typesetting using KaTeX">
 <title>Math Typesetting</title>
 
-<link rel='canonical' href='/post/math-typesetting/'>
+<link rel='canonical' href='//localhost:1313/post/math-typesetting/'>
 
 <link rel="stylesheet" href="/scss/style.min.b9c8156d464c343bdacaf14a871581fb94cbbdb9dd5cbce4ba017361187cc930.css"><meta property='og:title' content="Math Typesetting">
 <meta property='og:description' content="Math typesetting using KaTeX">
-<meta property='og:url' content='/post/math-typesetting/'>
+<meta property='og:url' content='//localhost:1313/post/math-typesetting/'>
 <meta property='og:site_name' content='My blog'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2023-08-24T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2023-08-24T00:00:00&#43;00:00'/>
 <meta name="twitter:title" content="Math Typesetting">
@@ -71,7 +71,7 @@
         
         
         <div class="site-meta">
-            <h1 class="site-name"><a href="/">My blog</a></h1>
+            <h1 class="site-name"><a href="//localhost:1313/">My blog</a></h1>
             <h2 class="site-description"></h2>
         </div>
     </header><ol class="menu-social">
@@ -392,56 +392,61 @@ $$</p>
      
     
         
-    <script
-    src="https://giscus.app/client.js"
-    data-repo="benchina250/blog_demo"
-    data-repo-id="R_kgDOOybj4w"
-    data-category="Announcements"
-    data-category-id="DIC_kwDOOybj484CquJW"
-    data-mapping="pathname"
-    data-strict="0"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="bottom"
-    data-theme="1"
-    data-lang="zh-CN"
-    data-loading=""
-    crossorigin="anonymous"
-    async
-></script>
-<script>
-    function setGiscusTheme(theme) {
-        let giscus = document.querySelector("iframe.giscus-frame");
-        if (giscus) {
-            giscus.contentWindow.postMessage(
-                {
-                    giscus: {
-                        setConfig: {
-                            theme: theme,
-                        },
-                    },
-                },
-                "https://giscus.app"
-            );
+    <link rel="stylesheet" href="/scss/partials/comments/disqusjs.min.css">
+
+<div class="disqus-container">
+    <div id="disqus_thread"></div>
+    <script type="application/javascript">
+        let disqusjs;
+        function loadDisqusJS() {
+            disqusjs = new DisqusJS({
+                shortname: "coolboys-1",
+                siteName: "My blog",
+                apikey: "PB1czdwNPPXULhPxLNfvLY6030dKDE0HbEv58QB3LuAqleU5jCpRfMgiqQZMxXGO",
+                api: "https://disqus.skk.moe/disqus/",
+                admin: "disqus_gy25KylPFC",
+                
+            });
         }
-    }
 
-    (function () {
-        addEventListener("message", (e) => {
-            if (event.origin !== "https://giscus.app") return;
-            handler();
-        });
-        window.addEventListener("onColorSchemeChange", handler);
+        function lazyLoadDisqusJS() {
+            if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+                document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+                return;
+            }
 
-        function handler() {
-            if (document.documentElement.dataset.scheme === "light") {
-                setGiscusTheme('1');
-            } else {
-                setGiscusTheme('dark_dimmed');
+            let d = document.createElement('script');
+            d.src = 'https://cdn.jsdelivr.net/npm/disqusjs@1.3/dist/disqus.js';
+            d.async = false;
+            document.body.appendChild(d);
+            d.onload = () => {
+                loadDisqusJS();
+                window.addEventListener('onColorSchemeChange', (e) => {
+                    if (disqusjs) {
+                        loadDisqusJS();
+                    }
+                })
             }
         }
-    })();
-</script>
+
+        let runningOnBrowser = typeof window !== "undefined";
+        let isBot = runningOnBrowser && !("onscroll" in window) || typeof navigator !== "undefined" && /(gle|ing|ro|msn)bot|crawl|spider|yand|duckgo/i.test(navigator.userAgent);
+        let supportsIntersectionObserver = runningOnBrowser && "IntersectionObserver" in window;
+
+        if (!isBot && supportsIntersectionObserver) {
+            let disqus_observer = new IntersectionObserver(function(entries) {
+                if (entries[0].isIntersecting) {
+                    lazyLoadDisqusJS();
+                    disqus_observer.disconnect();
+                }
+            });
+            disqus_observer.observe(document.getElementById('disqus_thread'));
+        } else {
+            lazyLoadDisqusJS();
+        }
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
 
     
 
@@ -545,7 +550,7 @@ $$</p>
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
-            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+            </script><script type="text/javascript" src="/ts/main.2b652d2994e243e8e57315b5f4442309fa0e37a5b19d32ded801329010b1961b.js" defer></script>
 <script>
     (function () {
         const customFont = document.createElement('link');

@@ -40,12 +40,12 @@ params:
 
     comments:
         enabled: true
-        provider: giscus
+        provider: disqusjs
 
         disqusjs:
             shortname:  coolboys-1
-            apiUrl: 
-            apiKey:
+            apiUrl: https://disqus.skk.moe/disqus/
+            apiKey: PB1czdwNPPXULhPxLNfvLY6030dKDE0HbEv58QB3LuAqleU5jCpRfMgiqQZMxXGO
             admin:  disqus_gy25KylPFC
             adminLabel:
 
