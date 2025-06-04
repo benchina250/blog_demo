@@ -17,8 +17,8 @@ params:
         customText:    <a href="https://github.com/yourname/yourname.github.io">example.com.github.io</a>
 
     dateFormat:
-        published: Jan 02, 2006
-        lastUpdated: Jan 02, 2006 15:04 MST
+        published: 2006年1月02日
+        lastUpdated: 2006年1月02日 15:04 MST
 
     sidebar:
         compact: false
@@ -44,7 +44,7 @@ params:
 
         disqusjs:
             shortname:  coolboys-1
-            apiUrl: https://disqus.skk.moe/disqus/
+            apiUrl:  https://disqus.skk.moe/disqus/
             apiKey: PB1czdwNPPXULhPxLNfvLY6030dKDE0HbEv58QB3LuAqleU5jCpRfMgiqQZMxXGO
             admin:  disqus_gy25KylPFC
             adminLabel:
