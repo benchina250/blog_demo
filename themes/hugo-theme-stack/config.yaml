@@ -6,16 +6,32 @@ module:
 params:
     mainSections:
         - post 
-        - page
-        - categories
+        # - page
+        # - categories
     featuredImageField: image
     rssFullContent: true
     favicon: /favicon.png
 
     footer:
-        since: 2025
-        customText:    <a href="https://github.com/yourname/yourname.github.io">example.com.github.io</a>
+        since: 2025 
+        customText:  <a href="https://github.com/yourname/yourname.github.io">example.com.github.io</a>
+        license: <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a>
+        poweredBy: <a href="https://gohugo.io/">Hugo</a>
 
+    social:
+        - icon: github
+          link: https://github.com/yourname/yourname.github.io
+        - icon: twitter
+          link: https://twitter.com/yourname
+        - icon: rss
+          link: https://example.com/atom.xml
+
+    analytics:
+        google: UA-XXXXXXXXX-X
+
+    comment:
+        service: utterances
+        repo: yourname/yourname.github.io   
     dateFormat:
         published: 2006年1月02日
         lastUpdated: 2006年1月02日 15:04 MST
@@ -23,7 +39,7 @@ params:
     sidebar:
         compact: false
         emoji: 🍟
-        subtitle:
+        subtitle: build my firt blog! please enjoy it!
         avatar:
             enabled: true
             local: true
@@ -40,7 +56,7 @@ params:
 
     comments:
         enabled: true
-        provider: disqusjs
+        provider: giscus
 
         disqusjs:
             shortname:  coolboys-1
@@ -101,29 +117,30 @@ params:
             categoryID: DIC_kwDOOybj484CquJW
             mapping: pathname
             strict: 0
-            lightTheme: 1
-            darkTheme: 0
+            lightTheme: 0
+            darkTheme: 1
             reactionsEnabled: 1
             emitMetadata: 0
             inputPosition: bottom
             lang: zh-CN
 
         gitalk:
-            owner:
-            admin:
-            repo:
-            clientID:
-            clientSecret:
+            owner: 
+            admin: 
+            repo: 
+            clientID: 
+            clientSecret: 
 
         cusdis:
-            host:
-            id:
+            host: https://cusdis.com
+            id:  acce190d-2bcd-4d5c-93e7-ab1fc37272ce    
 
     widgets:
         homepage: []
         page: []
         categories: []
         archives: []
+        toc: []
         
 
     opengraph:
